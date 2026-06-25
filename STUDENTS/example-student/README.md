@@ -25,14 +25,17 @@ This folder serves as the template workspace for all students. Copy this entire 
 - [ ] Solve 300+ DSA problems on LeetCode/GeeksforGeeks before the placement drive.
 - [ ] Build a strong foundation in CS fundamentals (OS, DBMS, OOP, Networks).
 - [ ] Deliver at least 1 seminar presentation to the community to practice communication skills.
-
 ---
 
 ## 🛠️ Technical Skills
 
+
+
 * **Languages:** C++, Python, Java, JavaScript
 * **Frameworks & Libraries:** Flutter, React.js, Node.js
 * **Databases:** PostgreSQL, MongoDB
+
+
 
 ---
 

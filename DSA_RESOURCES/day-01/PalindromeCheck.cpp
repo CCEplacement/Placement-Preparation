@@ -2,7 +2,8 @@
 // Palindrome : Call anything Palindrome if itself(Actual) and it's reverse are same
 // EX: MALAYALAM
 // The Pointers are assigned with "nullptr" and not "NULL". why?
-
+// PalindromeCheck.cpp
+// PalindromeCheck.java
 #include<bits/stdc++.h>
 using namespace std;
 struct Node

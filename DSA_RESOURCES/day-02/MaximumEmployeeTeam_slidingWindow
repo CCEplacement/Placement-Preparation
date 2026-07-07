@@ -1,0 +1,51 @@
+package org.example.arrays_patterns.SlidingWindow;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class MaximumEmployeeTeam {
+
+    // Function to find the maximum number of employees
+    public static int findMaxEmployees(int[] skills)
+    {
+
+        int left=0;
+        int maxTeam=0;
+        Arrays.sort(skills);
+
+        for(int right=0;right<skills.length;right++)
+        {
+            if(skills[right]-skills[left]>=5)
+            {
+                left++;
+            }
+            int currentSize=right-left+1;
+
+            maxTeam=Math.max(currentSize,maxTeam);
+        }
+        return maxTeam;
+    }
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        // Read the number of employees
+        int n = sc.nextInt();
+
+        // Read the skill levels
+        int[] skills = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            skills[i] = sc.nextInt();
+        }
+
+        // Call the function
+        int answer = findMaxEmployees(skills);
+
+        // Print the answer
+        System.out.println(answer);
+
+        sc.close();
+    }
+}
